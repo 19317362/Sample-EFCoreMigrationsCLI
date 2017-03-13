@@ -14,11 +14,11 @@ namespace CLI
         { }
     }
 
-    public class MyDbContextFactory : IDbContextFactory<CliDbContext>
+    public class CliDbContextFactory : IDbContextFactory<CliDbContext>
     {
         IConfigurationRoot Configuration;
 
-        public MyDbContextFactory()
+        public CliDbContextFactory()
         {
             var builder = new ConfigurationBuilder()
              .SetBasePath(Directory.GetCurrentDirectory())
