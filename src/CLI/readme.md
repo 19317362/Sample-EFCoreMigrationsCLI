@@ -1,7 +1,7 @@
 How to use EFCore Migrations with Console App
 =============================================
 
-This sample shows how to use Entity Framework Core Migrations CLI tools in a .NET Core Console application.
+This sample shows how to use Entity Framework Core Migrations CLI tools in a .NET Core Console application. This sample is based on the [awesome sample app](https://github.com/bricelam/Sample-SplitMigrations) by [Brice Lambson](https://github.com/bricelam) that shows how to wire up EFCore Migrations with multi-assembly project.
 
 The Solution
 ------------
